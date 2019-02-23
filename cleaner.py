@@ -18,7 +18,7 @@ if subprocess.call(["ls", image_path]) is not 0:
 # First, let's start by renaming all files and removing any ' ' characters
 
 i = 1
-while i < 2:
+while i < 3:
 # Start with directories
     print("Finding candidate directories to rename.")
     find_dir = subprocess.Popen(["find", image_path, "-type", "d", "-maxdepth", str(i), "-mindepth", str(i)], stdout=subprocess.PIPE)
@@ -33,7 +33,7 @@ while i < 2:
     for directory in directory_list:
         if ' ' in directory:
             if subprocess.call(["mv", directory, directory.replace(" ", "_")]) is not 0:
-                print("Failed to remove whitespace from directory: " + directory)
+                print("Failed to remove whitespace from file: " + directory)
                 exit(2)
     i += 1
 
@@ -67,9 +67,11 @@ failed_list = []
 
 for image in images_list:
     if '_' in image:
-        if subprocess.call(['mogrify', '-mattecolor', 'black', '-frame', '100X80', image]) is not 0:
+        if subprocess.call(['mogrify', '-mattecolor', 'black', '-shave', '7x5', '-resize', '1440x2010', '-brightness-contrast', '8x-2', '-frame', '69x53', image]) is not 0:
             print("Failed to mogrify: " + image)
             failed_list.append(image)
+        else:
+            print("Mogrified: " + image)
 
 if len(failed_list) > 0:
     print("The following images failed to be mogrified:" + failed_list)
