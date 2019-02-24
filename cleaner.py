@@ -67,7 +67,7 @@ failed_list = []
 
 for image in images_list:
     if '_' in image:
-        if subprocess.call(['mogrify', '-mattecolor', 'black', '-shave', '7x5', '-resize', '1440x2010', '-brightness-contrast', '8x-2', '-frame', '69x53', image]) is not 0:
+        if subprocess.call(['mogrify', '-mattecolor', 'black', '-shave', '7x5', '-resize', '1440x2010', '-brightness-contrast', '8x-2', '-frame', '60x53', image]) is not 0:
             print("Failed to mogrify: " + image)
             failed_list.append(image)
         else:
