@@ -1,8 +1,20 @@
 import subprocess
+import configparser
+
+# Read in the inventory items
+config = configparser.ConfigParser()
+config.read('cleaner.ini')
+
+result_path = config['card-paths']['ResultPath']
+catalog_path = config['card-paths']['CatalogPath']
+card_input_file = config['card-list']['InputFile']
+find_path = config['configs']['findPath']
 
 # TODO: Migrate this to be a command line arg.
-remote_image_path = "/media/nas_share/Games/Netrunner/*"
-image_path = "/home/devspringer/images"
+remote_image_path = catalog_path
+image_path = result_path
+
+print("Using the find_path of: " + find_path)
 
 if subprocess.call(["ls", image_path]) is not 0:
     print("Creating the " + image_path + " path.")
@@ -21,7 +33,7 @@ i = 1
 while i < 3:
 # Start with directories
     print("Finding candidate directories to rename.")
-    find_dir = subprocess.Popen(["find", image_path, "-type", "d", "-maxdepth", str(i), "-mindepth", str(i)], stdout=subprocess.PIPE)
+    find_dir = subprocess.Popen([find_path, image_path, "-type", "d", "-maxdepth", str(i), "-mindepth", str(i)], stdout=subprocess.PIPE)
     directories = find_dir.communicate()[0]
     print("Found: " + directories)
 
@@ -39,7 +51,7 @@ while i < 3:
 
 # Let's do the same thing for all file types.
 print("Finding candidate files to rename.")
-find_file = subprocess.Popen(["find", image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
+find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
 files = find_file.communicate()[0]
 print("Found: " + files)
 
@@ -58,7 +70,7 @@ for file in files_list:
 
 # First, find all of the images again.
 print("Finding images to mogrify.")
-find_file = subprocess.Popen(["find", image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
+find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
 files = find_file.communicate()[0]
 images_list = files.split('\n')
 print(images_list)

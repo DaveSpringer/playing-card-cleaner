@@ -1,0 +1,55 @@
+Runner	Adam - Compulsive Hacker	1
+Runner	Independent Thinking	3
+Runner	Brain Chip	3
+Runner	Multithreader	3
+Runner	Always Be Running	1
+Runner	Dr. Lovegood	3
+Runner	Neutralize All Threats	1
+Runner	Safety First	1
+Runner	Apex - Invasive Predator	1
+Runner	Apocalypse	3
+Runner	Prey	3
+Runner	Heartbeat	3
+Runner	Endless Hunger	3
+Runner	Harbinger	3
+Runner	Hunting Grounds	3
+Runner	Wasteland	3
+Corp	Global Food Initiative	3
+Corp	Launch Campaign	3
+Corp	Assassin	3
+Corp	SYNC - Everything, Everywhere	1
+Corp	New Angeles Sol - Your News	1
+Corp	Spark Agency - Worldwide Reach	1
+Corp	15 Minutes	3
+Corp	Improved Tracers	3
+Corp	Rebranding Team	3
+Corp	Quantum Predictive Model	3
+Corp	Lily Lockwell	3
+Corp	News Team	3
+Corp	Shannon Claire	3
+Corp	Victoria Jenkins	3
+Corp	Reality Threedee	3
+Corp	Archangel	3
+Corp	News Hound	3
+Corp	Resistor	3
+Corp	Special Offer	3
+Corp	TL_DR	3
+Corp	Turnpike	3
+Corp	24-7 News Cycle	3
+Corp	Ad Blitz	3
+Corp	Media Blitz	3
+Corp	The All-Seeing I	3
+Corp	Surveillance Sweep	3
+Corp	Keegan Lane	3
+Corp	Rutherford Grid	3
+Runner	Employee Strike	3
+Runner	Windfall	3
+Runner	Technical Writer	3
+Runner	Sunny Lebeau - Security Specialist	1
+Runner	Security Chip	3
+Runner	Security Nexus	3
+Runner	GS Striker M1	3
+Runner	GS Shrike M2	3
+Runner	GS Sherman M3	3
+Runner	Globalsec Security Clearance	3
+Runner	Jak Sinclair	3
