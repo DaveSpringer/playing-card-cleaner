@@ -32,7 +32,7 @@ card_lines = [line.rstrip('\n') for line in open(card_input_file)]
 failed_copies = []
 failed_names = []
 
-find_process = subprocess.Popen(['C:\\Program Files\\Git\\usr\\bin\\find.exe', catalog_path, '-type', 'f'], stdout=subprocess.PIPE)
+find_process = subprocess.Popen([find_path, catalog_path, '-type', 'f'], stdout=subprocess.PIPE)
 catalog_cards_bytes = find_process.communicate()[0].decode('utf-8')
 catalog_cards = catalog_cards_bytes.splitlines()
 print('Found these catalog cards: ' + str(catalog_cards))

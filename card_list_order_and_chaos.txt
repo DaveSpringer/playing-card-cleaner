@@ -30,7 +30,7 @@ Runner	Uninstall	3
 Runner	Qianju PT	3
 Runner	Data Folding	3
 Corp	Argus Security - Protection Guaranteed	3
-Corp	Gagarin Deep Space - Expanding the Horizon	3
+Corp	Gagarin Deep Space - Expanding The Horizon	3
 Corp	Titan Transnational - Investing In Your Future	3
 Corp	Firmware Updates	3
 Corp	Glenn Station	3

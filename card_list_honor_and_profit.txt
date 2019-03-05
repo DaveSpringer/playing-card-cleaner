@@ -1,0 +1,55 @@
+Corp	Plan B	3
+Corp	Guard	3
+Corp	Rainbow	3
+Corp	Diversified Portfolio	3
+Corp	Fast Track	3
+Runner	Iain Sterling - Retired Spook	1
+Runner	Ken Express Tenma - Disappeared Clone	1
+Runner	Silhouette - Stealth Operative	1
+Runner	Calling in Favors	3
+Runner	Early Bird	3
+Runner	Express Delivery	3
+Runner	Feint	3
+Runner	Legwork	3
+Runner	Planned Assault	3
+Runner	Logos	3
+Runner	Public Terminal	3
+Runner	Unregistered S_W _35	3
+Runner	Window	3
+Runner	Alias	3
+Runner	Breach	3
+Runner	Bug	3
+Runner	Gingerbread	3
+Runner	Grappling Hook	3
+Runner	Passport	3
+Runner	Push Your Luck	3
+Runner	Security Testing	3
+Runner	Theophilius Bagbiter	3
+Runner	Tri-maf Contact	3
+Corp	Harmony Medtech - Biomedical Pioneer	1
+Corp	Nisei Division - The Next Generation	1
+Corp	Tennin Institute - The Secrets Within	1
+Corp	House of Knives	3
+Corp	Medical Breakthrough	3
+Corp	Philotic Entanglement	3
+Corp	The Future Perfect	3
+Corp	Chairman Hiro	3
+Corp	Mental Health Clinic	3
+Corp	Psychic Field	3
+Corp	Shi.Kyu	3
+Corp	Tenma Line	3
+Corp	Cerebral Cast	3
+Corp	Medical Research Fundraiser	3
+Corp	Mushin No Shin	3
+Corp	Inazuma	3
+Corp	Komainu	3
+Corp	Pup	3
+Corp	Shiro	3
+Corp	Susanoo-no-Mikoto	3
+Corp	NeoTokyo Grid	3
+Corp	Tori Hanzo	3
+Runner	Mass Install	3
+Runner	Q-Coherence Chip	3
+Runner	Overmind	3
+Runner	Oracle May	3
+Runner	Donut Taganes	3

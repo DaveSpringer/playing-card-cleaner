@@ -1,0 +1,58 @@
+Runner	Algernon	3
+Runner	Nathaniel Gnat Hall - One-of-a-Kind	1
+Runner	Divide and Conquer	3
+Runner	Guinea Pig	3
+Runner	Patchwork	3
+Runner	Hijacked Router	3
+Runner	Cradle	3
+Runner	District 99	3
+Runner	Reboot	3
+Corp	Lady Liberty	3
+Runner	Liza Talking Thunder - Prominent Legislator	1
+Runner	Hot Pursuit	3
+Runner	Paragon	3
+Runner	Bankroll	3
+Runner	Tycoon	3
+Runner	Thunder Art Gallery	3
+Runner	Miss Bones	3
+Corp	Sportsmetal - Go Big or Go Home	1
+Corp	Hyperloop Extension	3
+Corp	Meridian	3
+Corp	Gatekeeper	3
+Corp	Divert Power	3
+Corp	Fast Break	3
+Corp	Game Changer	3
+Corp	Giordano Memorial Field	3
+Corp	Saraswati Mnemonics - Endless Exploration	1
+Corp	Jumon	3
+Corp	API-S Keeper Isobel	3
+Corp	Neurostasis	3
+Corp	Otoroshi	3
+Corp	Thimblerig	3
+Corp	Hangeki	3
+Corp	Daruma	3
+Corp	Acme Consulting - The Truth You Need	1
+Corp	Fly on the Wall	3
+Corp	SIU	3
+Corp	Peeping Tom	3
+Corp	Hydra	3
+Corp	Eavesdrop	3
+Corp	Attitude Adjustment	3
+Corp	Arella Salvatore	3
+Runner	DJ Fenris	3
+Runner	Akiko Nisei - Head Case	1
+Runner	Insight	3
+Runner	Mind_s Eye	3
+Runner	Mache	3
+Runner	Ika	3
+Runner	Kyuban	3
+Runner	Psych Mike	3
+Runner	Office Supplies	3
+Corp	The Outfit - Family Owned and Operated	1
+Corp	Broad Daylight	3
+Corp	Drudge Work	3
+Corp	Blockchain	3
+Corp	Formicary	3
+Corp	Building Blocks	3
+Corp	Too Big to Fail	3
+Corp	Under the Bus	3

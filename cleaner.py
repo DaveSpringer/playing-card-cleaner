@@ -33,8 +33,8 @@ i = 1
 while i < 3:
 # Start with directories
     print("Finding candidate directories to rename.")
-    find_dir = subprocess.Popen([find_path, image_path, "-type", "d", "-maxdepth", str(i), "-mindepth", str(i)], stdout=subprocess.PIPE)
-    directories = find_dir.communicate()[0]
+    find_dir = subprocess.Popen([find_path, image_path, "-maxdepth", str(i), "-mindepth", str(i), "-type", "d"], stdout=subprocess.PIPE)
+    directories = find_dir.communicate()[0].decode('utf-8')
     print("Found: " + directories)
 
     # Tokenize the directories
@@ -52,7 +52,7 @@ while i < 3:
 # Let's do the same thing for all file types.
 print("Finding candidate files to rename.")
 find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
-files = find_file.communicate()[0]
+files = find_file.communicate()[0].decode('utf-8')
 print("Found: " + files)
 
 # Tokenize the files
@@ -71,7 +71,7 @@ for file in files_list:
 # First, find all of the images again.
 print("Finding images to mogrify.")
 find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
-files = find_file.communicate()[0]
+files = find_file.communicate()[0].decode('utf-8')
 images_list = files.split('\n')
 print(images_list)
 
@@ -79,11 +79,24 @@ failed_list = []
 
 for image in images_list:
     if '_' in image:
-        if subprocess.call(['mogrify', '-mattecolor', 'black', '-shave', '7x5', '-resize', '1440x2010', '-brightness-contrast', '8x-2', '-frame', '69x53', image]) is not 0:
+        if subprocess.call(['mogrify', '-gravity', 'center', '-crop', '2.48:3.46', '+repage', image]) is not 0:
             print("Failed to mogrify: " + image)
             failed_list.append(image)
         else:
-            print("Mogrified: " + image)
+            if subprocess.call(['mogrify', '-shave', '5x7', image]) is not 0:
+                print("Failed to shave image: " + image)
+                failed_list.append(image)
+            else:
+                if subprocess.call(['./bin/saturation', '1.75', image, image]) is not 0:
+                    print("Failed to saturate image: " + image)
+                    failed_list.append(image)
+                else:
+                    subprocess.call(['mogrify', '-brightness-contrast', '10', image])
+                    if subprocess.call(['./bin/imageborder', '-s', '70', '-p', '0', '-t', '0', '-e', 'mirror', image, image]) is not 0:
+                        print("Failed to imageborder image: " + image)
+                        failed_list.append(image)
+                    else:
+                        print("Cleaned and mogrified: " + image)
 
 if len(failed_list) > 0:
     print("The following images failed to be mogrified:" + failed_list)
