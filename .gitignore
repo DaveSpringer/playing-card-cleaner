@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# User Added - Ignore the bin directory - These are files provided from elsewhere.
+bin
+cards
+cards-complete
+imageborder*
+saturation*
