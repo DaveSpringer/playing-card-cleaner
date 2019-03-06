@@ -1,0 +1,20 @@
+Runner	By Any Means	3
+Runner	Yusuf	3
+Runner	Assimilator	3
+Runner	Zamba	3
+Runner	Puffer	3
+Runner	Lewi Guilherme	3
+Corp	Asa Group - Security Through Vigilance	3
+Corp	Ikawah Project	3
+Corp	Najja 1.0	3
+Corp	Gene Splicer	3
+Corp	Mganga	3
+Corp	Genotyping	3
+Corp	Echo Chamber	3
+Corp	Self-Growth Program	3
+Corp	Calibration Testing	3
+Runner	Cyberdelia	3
+Runner	Upya	3
+Corp	Urban Renewal	3
+Corp	Wake Up Call	3
+Corp	Reconstruction Contract	3

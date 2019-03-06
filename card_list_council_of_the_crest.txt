@@ -1,0 +1,20 @@
+Runner	eXer	3
+Runner	Friday Chip	3
+Runner	Crypt	3
+Corp	TechnoCo	3
+Runner	Corporate _Grant_	3
+Runner	No One Home	3
+Corp	Kuwinda K4H1U3	3
+Corp	NEXT Sapphire	3
+Corp	Anansi	3
+Corp	Code Replicator	3
+Corp	Reverse Infection	3
+Corp	Azmari EdTech - Shaping the Future	3
+Corp	Degree Mill	3
+Corp	Personalized Portal	3
+Runner	Marathon	3
+Runner	Gbahali	3
+Runner	White Hat	3
+Corp	Armed Intimidation	3
+Corp	Death and Taxes	3
+Corp	Trojan Horse	3

@@ -1,0 +1,55 @@
+Runner	Edward Kim - Humanity_s Hammer	3
+Runner	MaxX - Maximum Punk Rock	3
+Runner	Valencia Estevez - The Angel of Cayambe	3
+Runner	Amped Up	3
+Runner	I_ve Had Worse	3
+Runner	Itinerant Protesters	3
+Runner	Showing Off	3
+Runner	Wanton Destruction	3
+Runner	Day Job	3
+Runner	Forked	3
+Runner	Knifed	3
+Runner	Spooned	3
+Runner	Eater	3
+Runner	Gravedigger	3
+Runner	Hivemind	3
+Runner	Progenitor	3
+Runner	Archives Interface	3
+Runner	Chop Bot 3000	3
+Runner	MemStrips	3
+Runner	Vigil	3
+Runner	Human First	3
+Runner	Investigative Journalism	3
+Runner	Sacrificial Clone	3
+Runner	Stim Dealer	3
+Runner	Virus Breeding Ground	3
+Corp	Sub Boost	3
+Corp	Dedicated Technician Team	3
+Corp	Cyberdex Virus Suite	3
+Runner	Uninstall	3
+Runner	Qianju PT	3
+Runner	Data Folding	3
+Corp	Argus Security - Protection Guaranteed	3
+Corp	Gagarin Deep Space - Expanding The Horizon	3
+Corp	Titan Transnational - Investing In Your Future	3
+Corp	Firmware Updates	3
+Corp	Glenn Station	3
+Corp	Government Takeover	3
+Corp	High-Risk Investment	3
+Corp	Constellation Protocol	3
+Corp	Mark Yale	3
+Corp	Space Camp	3
+Corp	The Board	3
+Corp	Asteroid Belt	3
+Corp	Wormhole	3
+Corp	Nebula	3
+Corp	Orion	3
+Corp	Builder	3
+Corp	Checkpoint	3
+Corp	Fire Wall	3
+Corp	Searchlight	3
+Corp	Housekeeping	3
+Corp	Patch	3
+Corp	Traffic Accident	3
+Corp	Satellite Grid	3
+Corp	The Twins	3

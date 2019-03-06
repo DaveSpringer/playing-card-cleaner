@@ -1,0 +1,135 @@
+Runner	Corroder	3
+Runner	Demolition Run	1
+Runner	Data Dealer	3
+Runner	Singularity	2
+Runner	Akamatsu Mem Chip	3
+Runner	Imp	2
+Runner	Spinal Modem	1
+Runner	Darwin	1
+Corp	Stronger Together	2
+Corp	Ash 2X3ZB9CY	2
+Runner	Hemorrhage	2
+Corp	Caduceus	1
+Runner	Notoriety	2
+Corp	Replicating Perfection	3
+Corp	Fetal AI	3
+Corp	Trick of Light	1
+Runner	Emergency Shutdown	1
+Runner	Chaos Theory	2
+Runner	Forged Activation Orders	1
+Runner	Test Run	1
+Runner	Dinosaurus	1
+Runner	Doppelganger	1
+Corp	Marked Accounts	3
+Runner	Pheromones	2
+Runner	Scrubber	1
+Runner	Crash Space	1
+Runner	Fall Guy	2
+Runner	Mr. Li	2
+Runner	Deus X	3
+Corp	Oversight AI	3
+Runner	Indexing	1
+Runner	Xanadu	2
+Runner	Networking	3
+Runner	HQ Interface	2
+Runner	Kati Jones	3
+Corp	Hokusai Grid	2
+Runner	Retrieval Run	1
+Runner	Rabbit Hole	1
+Runner	The Personal Touch	2
+Runner	R_D Interface	3
+Runner	Magnum Opus	1
+Corp	Eli 1.0	3
+Corp	Ronin	2
+Runner	All-Nighter	2
+Runner	Sacrificial Construct	2
+Runner	Infiltration	1
+Corp	Flare	2
+Runner	Underworld Contact	1
+Corp	Project Ares	1
+Corp	Hudson 1.0	2
+Corp	Shipment from MirrorMorph	2
+Corp	Strongbox	2
+Runner	Quest Completed	3
+Corp	Blue Level Clearance	3
+Corp	Yagura	2
+Corp	Wraparound	1
+Corp	Whirlpool	2
+Corp	Lotus Field	3
+Runner	Lamprey	3
+Corp	Crisium Grid	3
+Runner	Quetzal - Free Spirit	3
+Corp	Reversed Accounts	3
+Corp	Blue Sun - Powering the Future	3
+Corp	Daily Business Show	3
+Runner	Leela Patel	3
+Runner	Career Fair	3
+Corp	Turing	3
+Corp	Oaktown Renovation	3
+Corp	Anonymous Tip	2
+Corp	Contract Killer	3
+Corp	Spiderweb	3
+Corp	Explode-A-Palooza	3
+Corp	Product Placement	3
+Corp	Bernice Mai	2
+Corp	Public Support	3
+Corp	The Cleaners	2
+Corp	Dedicated Response Team	2
+Runner	Spear Phishing	3
+Runner	Abagnale	3
+Runner	Demara	3
+Corp	Seidr Laboratories	3
+Corp	Hive	1
+Corp	Successful Field Test	3
+Corp	Shadow	1
+Corp	Marilyn Campaign	3
+Corp	Mason Bellamy	3
+Corp	Shipment from Kaguya	1
+Corp	False Lead	2
+Corp	Hortum	3
+Corp	Private Security Force	1
+Corp	Melange Mining Corp.	1
+Corp	Paper Trail	3
+Corp	IPO	3
+Runner	Stimhack	2
+Runner	Cyberfeeder	1
+Runner	Datasucker	1
+Runner	Ice Carver	2
+Runner	Gabriel Santiago	2
+Runner	Inside Job	1
+Runner	Special Order	2
+Runner	Femme Fatale	1
+Runner	Sneakdoor Beta	2
+Runner	Bank Job	1
+Runner	Diesel	1
+Runner	The Maker_s Eye	2
+Runner	Tinkering	1
+Runner	Aesop_s Pawnshop	2
+Runner	Crypsis	1
+Corp	Aggressive Secretary	2
+Corp	Heimdall 1.0	2
+Corp	Ichi 1.0	1
+Corp	Rototurret	1
+Corp	Archived Memories	2
+Corp	Biotic Labor	1
+Corp	Personal Evolution	2
+Corp	Nisei MK II	1
+Corp	Project Junebug	1
+Corp	Snare!	1
+Corp	Neural Katana	2
+Corp	Wall of Thorns	2
+Corp	Neural EMP	1
+Corp	Making News	2
+Corp	Ghost Branch	2
+Corp	Data Raven	1
+Corp	Tollbooth	1
+Corp	Closed Accounts	1
+Corp	SEA Source	1
+Corp	Red Herrings	2
+Corp	Building a Better World	2
+Corp	Hostile Takeover	2
+Corp	Archer	2
+Corp	Hadrian_s Wall	2
+Corp	Ice Wall	1
+Corp	Priority Requisition	1
+Corp	Hunter	1
