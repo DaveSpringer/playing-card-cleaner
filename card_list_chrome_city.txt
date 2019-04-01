@@ -1,0 +1,20 @@
+Runner	Immolation Script	3
+Runner	Skulljack	3
+Runner	Turntable	3
+Runner	Chrome Parlor	3
+Corp	Quicksand	3
+Runner	Titanium Ribs	3
+Runner	Crowbar	3
+Corp	Cybernetics Division: Humanity Upgraded	3
+Corp	Self-Destruct Chips	3
+Corp	Lab Dog	3
+Corp	Oaktown Grid	3
+Corp	Ryon Knight	3
+Corp	Clairvoyant Monitor	3
+Corp	Lockdown	3
+Corp	Little Engine	3
+Runner	Brain Cage	3
+Runner	Net-Ready Eyes	3
+Runner	Analog Dreamers	3
+Corp	Oaktown Renovation	3
+Corp	Corporate Town	3

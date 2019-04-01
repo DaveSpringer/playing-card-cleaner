@@ -9,7 +9,7 @@ Corp	NEXT Sapphire	3
 Corp	Anansi	3
 Corp	Code Replicator	3
 Corp	Reverse Infection	3
-Corp	Azmari EdTech - Shaping the Future	3
+Corp	Azmari EdTech - Shaping the Future	1
 Corp	Degree Mill	3
 Corp	Personalized Portal	3
 Runner	Marathon	3

@@ -1,0 +1,2 @@
+Corp	Corp Card Back	0
+Runner	Runner Card Back	0

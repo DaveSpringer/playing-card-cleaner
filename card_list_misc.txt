@@ -1,28 +1,33 @@
-Corp	Corp Card Back	1
-Runner	Runner Card Back	1
-Corp	PAD Campaign	3
-Corp	Enigma	3
+Corp	Corp Card Back	0
+Runner	Runner Card Back	0
 Corp	Adonis Campaign	3
-Runner	Ele Smoke Scovak	1
-Runner	Reina Roja	1
+Corp	Arella Salvatore	3
+Corp	Ash 2X3ZB9CY	3
+Corp	Border Control	6
 Corp	Director Haas	2
-Corp	Thomas Haas	2
+Corp	Eli 1.0	3
+Corp	Enigma	3
+Corp	Global Food Initiative	6
 Corp	Levy University	1
-Runner	The Source	1
-Runner	Wari	2
-Runner	Takobi	2
-Runner	RNG Key	2
-Runner	Aumakua	3
-Corp	Wall of Static	3
-Corp	Hedge Fund	3
-Runner	Employee Strike	3
-Runner	Dirty Laundry	3
-Corp	Rashida Jaheem	3
-Runner	Sure Gamble	3
-Corp	Vanilla	3
-Corp	Tollbooth	3
 Corp	Pop-Up Window	3
-Runner	The Turning Wheel	3
-Runner	Crowdfunding	3
+Corp	Rashida Jaheem	6
+Corp	Scarcity of Resources	3
+Corp	Tollbooth	3
+Corp	Thomas Haas	2
+Corp	Vanilla	3
+Corp	Wall of Static	3
+Runner	Aumakua	3
+Runner	Build Script	3
+Runner	Beth Kilrain-Chang	3
+Runner	Crowdfunding	6
+Runner	Diesel	3
+Runner	Employee Strike	3
+Runner	Earthrise Hotel	3
+Runner	Film Critic	6
 Runner	Labor Rights	3
-Runner	Daily Casts	3
+Runner	Legwork	3
+Runner	Reina Roja	1
+Runner	RNG Key	2
+Runner	Same Old Thing	3
+Runner	The Maker_s Eye	3
+Runner	The Turning Wheel	3

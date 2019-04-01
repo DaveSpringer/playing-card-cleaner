@@ -11,29 +11,26 @@ card_input_file = config['card-list']['InputFile']
 find_path = config['configs']['findPath']
 
 # TODO: Migrate this to be a command line arg.
-remote_image_path = catalog_path
-image_path = result_path
+result_path = result_path
 
 print("Using the find_path of: " + find_path)
 
-if subprocess.call(["ls", image_path]) is not 0:
-    print("Creating the " + image_path + " path.")
-    subprocess.call(["mkdir", image_path])
+if subprocess.call(["ls", result_path]) is not 0:
+    print("Creating the " + result_path + " path.")
+    subprocess.call(["mkdir", result_path])
+    subprocess.call(["mkdir", result_path + "/Runner"])
+    subprocess.call(["mkdir", result_path + "/Corp"])
 
-    print("Copying from " + remote_image_path + " to " + image_path)
-    # Copy from the remote into a local build directory
-    if subprocess.call(["cp", "-r", remote_image_path, image_path]) is not 0:
-        print("Failed to copy from " + remote_image_path + " to " + image_path)
-        subprocess.call(['rm', '-rf', image_path])
-        exit(1)
+
+# Convert from the CatalogPath to the ResultPath
+print("Converting images from " + catalog_path + " to " + result_path)
 
 # First, let's start by renaming all files and removing any ' ' characters
-
 i = 1
 while i < 3:
 # Start with directories
     print("Finding candidate directories to rename.")
-    find_dir = subprocess.Popen([find_path, image_path, "-maxdepth", str(i), "-mindepth", str(i), "-type", "d"], stdout=subprocess.PIPE)
+    find_dir = subprocess.Popen([find_path, catalog_path, "-maxdepth", str(i), "-mindepth", str(i), "-type", "d"], stdout=subprocess.PIPE)
     directories = find_dir.communicate()[0].decode('utf-8')
     print("Found: " + directories)
 
@@ -51,7 +48,7 @@ while i < 3:
 
 # Let's do the same thing for all file types.
 print("Finding candidate files to rename.")
-find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
+find_file = subprocess.Popen([find_path, catalog_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
 files = find_file.communicate()[0].decode('utf-8')
 print("Found: " + files)
 
@@ -60,17 +57,31 @@ files_list = files.split('\n')
 print(files_list)
 
 # Iterate over the files and remove whitespace
-for file in files_list:
-    if ' ' in file:
-        if subprocess.call(["mv", file, file.replace(" ", "_")]) is not 0:
-            print("Failed to remove whitespace from directory: " + directory)
-            exit(2)
+for file_name in files_list:
+    if '/' in file_name:
+        clean_file = file_name.replace(" ", "_")
+        new_file_name = '.'.join(clean_file.split('/')[-1].split(".")[:-1]) + '.png'
+        print("New file name is: " + new_file_name)
+        result_file = result_path + '/' + clean_file.split('/')[-2] + '/' + new_file_name
+        print("New file is: " + result_file)
+        if subprocess.call(['convert', file_name, result_file]) is not 0:
+            print("Failed to convert file from " + file_name + " to " + result_file)
+            exit(3)
+
+# A quick pause to run a gimp command on all images in the Corp and Runner folders.
+if subprocess.call(['gimp', '-i', '-b', '(batch-despeckle "' + result_path + '/Corp/*.png" 0.5)', '-b', '(gimp-quit 0)']) is not 0:
+    print("Failed to despeckle the Corp cards.")
+    exit(4)
+
+if subprocess.call(['gimp', '-i', '-b', '(batch-despeckle "' + result_path + '/Runner/*.png" 0.5)', '-b', '(gimp-quit 0)']) is not 0:
+    print("Failed to despeckle the Runner cards.")
+    exit(4)
 
 # Now we are ready to start running magick on all of the images.
 
 # First, find all of the images again.
 print("Finding images to mogrify.")
-find_file = subprocess.Popen([find_path, image_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
+find_file = subprocess.Popen([find_path, result_path, "-type", "f", "-mindepth", "1"], stdout=subprocess.PIPE)
 files = find_file.communicate()[0].decode('utf-8')
 images_list = files.split('\n')
 print(images_list)
@@ -83,7 +94,9 @@ for image in images_list:
             print("Failed to mogrify: " + image)
             failed_list.append(image)
         else:
-            if subprocess.call(['mogrify', '-shave', '5x7', image]) is not 0:
+            #subprocess.call(['mogrify', '-gaussian-blur', '12x2', '+repage', '-sharpen', '12x2', '-sharpen', '12x2', image])
+            # if subprocess.call(['mogrify', '-shave', '5x7', '+repage', '-resize', '744x1038!', '-unsharp', '0x0.75+0.75+0.008', image]) is not 0:
+            if subprocess.call(['mogrify', '-shave', '5x7', '+repage', '-resize', '744x1038!', image]) is not 0:
                 print("Failed to shave image: " + image)
                 failed_list.append(image)
             else:
@@ -91,8 +104,8 @@ for image in images_list:
                     print("Failed to saturate image: " + image)
                     failed_list.append(image)
                 else:
-                    subprocess.call(['mogrify', '-brightness-contrast', '10', image])
-                    if subprocess.call(['./bin/imageborder', '-s', '70', '-p', '0', '-t', '0', '-e', 'mirror', image, image]) is not 0:
+                    #subprocess.call(['mogrify', '-brightness-contrast', '10', image])
+                    if subprocess.call(['./bin/imageborder', '-s', '36', '-p', '0', '-t', '0', '-e', 'mirror', image, image]) is not 0:
                         print("Failed to imageborder image: " + image)
                         failed_list.append(image)
                     else:

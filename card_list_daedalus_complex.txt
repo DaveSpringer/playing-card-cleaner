@@ -1,0 +1,20 @@
+Runner	Pushing the Envelope	3
+Runner	Maw	3
+Runner	The Archivist	3
+Corp	Khondi Plaza	3
+Corp	Signal Jamming	3
+Runner	Exploit	3
+Runner	Spot the Prey	3
+Corp	NEXT Wave 2	3
+Corp	Zed 2.0	3
+Corp	Defense Construct	3
+Corp	Synth DNA Modification	3
+Corp	Kakugo	3
+Corp	Net Analytics	3
+Corp	SYNC BRE	3
+Runner	Mad Dash	3
+Runner	Bio-Modeled Network	3
+Runner	Network Exchange	3
+Corp	Jemison Astronautics: Sacrifice. Audacity. Success.	3
+Corp	Quarantine System	3
+Corp	Oberth Protocol	3

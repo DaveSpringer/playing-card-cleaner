@@ -1,135 +1,80 @@
-Runner	Corroder
-Runner	Demolition Run
-Runner	Data Dealer
-Runner	Singularity
-Runner	Akamatsu Mem Chip
-Runner	Imp
-Runner	Spinal Modem
-Runner	Darwin
-Corp	Stronger Together
-Corp	Ash 2X3ZB9CY
-Runner	Hemorrhage
-Corp	Caduceus
-Runner	Notoriety
-Corp	Replicating Perfection
-Corp	Fetal AI
-Corp	Trick of Light
-Runner	Emergency Shutdown
-Runner	Chaos Theory
-Runner	Forged Activation Orders
-Runner	Test Run
-Runner	Dinosaurus
-Runner	Doppelganger
-Corp	Marked Accounts
-Runner	Pheromones
-Runner	Scrubber
-Runner	Crash Space
-Runner	Fall Guy
-Runner	Mr. Li
-Runner	Deus X
-Corp	Oversight AI
-Runner	Indexing
-Runner	Xanadu
-Runner	Networking
-Runner	HQ Interface
-Runner	Kati Jones
-Corp	Hokusai Grid
-Runner	Retrieval Run
-Runner	Rabbit Hole
-Runner	The Personal Touch
-Runner	R_D Interface
-Runner	Magnum Opus
-Corp	Eli 1.0
-Corp	Ronin
-Runner	All-Nighter
-Runner	Sacrificial Construct
-Runner	Infiltration
-Corp	Flare
-Runner	Underworld Contact
-Corp	Project Ares
-Corp	Hudson 1.0
-Corp	Shipment from MirrorMorph
-Corp	Strongbox
-Runner	Quest Completed
-Corp	Blue Level Clearance
-Corp	Yagura
-Corp	Wraparound
-Corp	Whirlpool
-Corp	Lotus Field
-Runner	Lamprey
-Corp	Crisium Grid
-Runner	Quetzal - Free Spirit
-Corp	Reversed Accounts
-Corp	Blue Sun - Powering the Future
-Corp	Daily Business Show
-Runner	Leela Patel
-Runner	Career Fair
-Corp	Turing
-Corp	Oaktown Renovation
-Corp	Anonymous Tip
-Corp	Contract Killer
-Corp	Spiderweb
-Corp	Explode-A-Palooza
-Corp	Product Placement
-Corp	Bernice Mai
-Corp	Public Support
-Corp	The Cleaners
-Corp	Dedicated Response Team
-Runner	Spear Phishing
-Runner	Abagnale
-Runner	Demara
-Corp	Seidr Laboratories
-Corp	Hive
-Corp	Successful Field Test
-Corp	Shadow
-Corp	Marilyn Campaign
-Corp	Mason Bellamy
-Corp	Shipment from Kaguya
-Corp	False Lead
-Corp	Hortum
-Corp	Private Security Force
-Corp	Melange Mining Corp.
-Corp	Paper Trail
-Corp	IPO
-Runner	Stimhack
-Runner	Cyberfeeder
-Runner	Datasucker
-Runner	Ice Carver
-Runner	Gabriel Santiago
-Runner	Inside Job
-Runner	Special Order
-Runner	Femme Fatale
-Runner	Sneakdoor Beta
-Runner	Bank Job
-Runner	Diesel
-Runner	The Maker_s Eye
-Runner	Tinkering
-Runner	Aesop_s Pawnshop
-Runner	Crypsis
-Corp	Aggressive Secretary
-Corp	Heimdall 1.0
-Corp	Ichi 1.0
-Corp	Rototurret
-Corp	Archived Memories
-Corp	Biotic Labor
-Corp	Personal Evolution
-Corp	Nisei MK II
-Corp	Project Junebug
-Corp	Snare!
-Corp	Neural Katana
-Corp	Wall of Thorns
-Corp	Neural EMP
-Corp	Making News
-Corp	Ghost Branch
-Corp	Data Raven
-Corp	Tollbooth
-Corp	Closed Accounts
-Corp	SEA Source
-Corp	Red Herrings
-Corp	Building a Better World
-Corp	Hostile Takeover
-Corp	Archer
-Corp	Hadrian_s Wall
-Corp	Ice Wall
-Corp	Priority Requisition
-Corp	Hunter
+Corp	Aggressive Secretary	2
+Corp	Archer	2
+Corp	Archived Memories	2
+Corp	Ash 2X3ZB9CY	2
+Corp	Biotic Labor	1
+Corp	Building a Better World	1
+Corp	Caduceus	1
+Corp	Closed Accounts	1
+Corp	Contract Killer	3
+Corp	Data Raven	1
+Corp	Eli 1.0	3
+Corp	Explode-A-Palooza	3
+Corp	Fetal AI	3
+Corp	Flare	2
+Corp	Ghost Branch	2
+Corp	Hadrian_s Wall	2
+Corp	Heimdall 1.0	2
+Corp	Hokusai Grid	2
+Corp	Hostile Takeover	2
+Corp	Hunter	1
+Corp	Ice Wall	1
+Corp	Ichi 1.0	1
+Corp	Making News	1
+Corp	Marked Accounts	3
+Corp	Neural EMP	1
+Corp	Neural Katana	2
+Corp	Nisei MK II	1
+Corp	Oaktown Renovation	3
+Corp	Oversight AI	3
+Corp	Personal Evolution	1
+Corp	Philotic Entanglement	3
+Corp	Priority Requisition	1
+Corp	Product Placement	3
+Corp	Project Junebug	1
+Corp	Public Support	3
+Corp	Red Herrings	2
+Corp	Replicating Perfection	1
+Corp	Ronin	2
+Corp	Rototurret	1
+Corp	SEA Source	1
+Corp	Snare!	1
+Corp	Spark Agency - Worldwide Reach	1
+Corp	Spiderweb	3
+Corp	Tollbooth	1
+Corp	Trick of Light	1
+Corp	Turing	3
+Corp	Wall of Thorns	2
+Runner	Aesop_s Pawnshop	2
+Runner	Akamatsu Mem Chip	3
+Runner	Bank Job	1
+Runner	Career Fair	3
+Runner	Corroder	3
+Runner	Crypsis	1
+Runner	Cyberfeeder	1
+Runner	Data Dealer	3
+Runner	Datasucker	1
+Runner	Deus X	3
+Runner	Diesel	1
+Runner	Dinosaurus	1
+Runner	Emergency Shutdown	1
+Runner	Femme Fatale	1
+Runner	Gabriel Santiago	1
+Runner	HQ Interface	2
+Runner	Ice Carver	2
+Runner	Imp	2
+Runner	Inside Job	1
+Runner	Kati Jones	3
+Runner	Legwork	3
+Runner	Networking	3
+Runner	Notoriety	2
+Runner	R_D Interface	3
+Runner	Retrieval Run	1
+Runner	Scrubber	1
+Runner	Sneakdoor Beta	2
+Runner	Special Order	2
+Runner	Stimhack	2
+Runner	Test Run	1
+Runner	The Maker_s Eye	2
+Runner	Tinkering	1
+Runner	Xanadu	2

@@ -1,0 +1,235 @@
+Corp	15 Minutes	3
+Corp	24-7 News Cycle	3
+Corp	Ad Blitz	3
+Corp	Adonis Campaign	3
+Corp	Aggressive Secretary	2
+Corp	Archangel	3
+Corp	Archer	2
+Corp	Archived Memories	2
+Corp	Arella Salvatore	3
+Corp	Argus Security - Protection Guaranteed	1
+Corp	Asa Group - Security Through Vigilance	3
+Corp	Ash 2X3ZB9CY	5
+Corp	Assassin	3
+Corp	Asteroid Belt	3
+Corp	Biotic Labor	1
+Corp	Border Control	6
+Corp	Builder	3
+Corp	Building a Better World	1
+Corp	Caduceus	1
+Corp	Calibration Testing	3
+Corp	Checkpoint	3
+Corp	Closed Accounts	1
+Corp	Constellation Protocol	3
+Corp	Contract Killer	3
+Corp	Corp Card Back	0
+Corp	Cyberdex Virus Suite	3
+Corp	Data Raven	1
+Corp	Dedicated Technician Team	3
+Corp	Director Haas	2
+Corp	Echo Chamber	3
+Corp	Eli 1.0	6
+Corp	Enigma	3
+Corp	Explode-A-Palooza	3
+Corp	Fetal AI	3
+Corp	Fire Wall	3
+Corp	Firmware Updates	3
+Corp	Flare	2
+Corp	Gagarin Deep Space - Expanding The Horizon	1
+Corp	Gene Splicer	3
+Corp	Genotyping	3
+Corp	Ghost Branch	2
+Corp	Glenn Station	3
+Corp	Global Food Initiative	9
+Corp	Government Takeover	3
+Corp	Hadrian_s Wall	2
+Corp	Heimdall 1.0	2
+Corp	High-Risk Investment	3
+Corp	Hokusai Grid	2
+Corp	Hostile Takeover	2
+Corp	Housekeeping	3
+Corp	Hunter	1
+Corp	Ice Wall	1
+Corp	Ichi 1.0	1
+Corp	Ikawah Project	3
+Corp	Improved Tracers	3
+Corp	Keegan Lane	3
+Corp	Launch Campaign	3
+Corp	Levy University	1
+Corp	Lily Lockwell	3
+Corp	Making News	1
+Corp	Mark Yale	3
+Corp	Marked Accounts	3
+Corp	Media Blitz	3
+Corp	Mganga	3
+Corp	Najja 1.0	3
+Corp	Nebula	3
+Corp	Neural EMP	1
+Corp	Neural Katana	2
+Corp	New Angeles Sol - Your News	1
+Corp	News Hound	3
+Corp	News Team	3
+Corp	Nisei MK II	1
+Corp	Oaktown Renovation	3
+Corp	Orion	3
+Corp	Oversight AI	3
+Corp	Patch	3
+Corp	Personal Evolution	1
+Corp	Philotic Entanglement	3
+Corp	Pop-Up Window	3
+Corp	Priority Requisition	1
+Corp	Product Placement	3
+Corp	Project Junebug	1
+Corp	Public Support	3
+Corp	Quantum Predictive Model	3
+Corp	Rashida Jaheem	6
+Corp	Reality Threedee	3
+Corp	Rebranding Team	3
+Corp	Reconstruction Contract	3
+Corp	Red Herrings	2
+Corp	Replicating Perfection	1
+Corp	Resistor	3
+Corp	Ronin	2
+Corp	Rototurret	1
+Corp	Rutherford Grid	3
+Corp	SEA Source	1
+Corp	SYNC - Everything, Everywhere	1
+Corp	Satellite Grid	3
+Corp	Scarcity of Resources	3
+Corp	Searchlight	3
+Corp	Self-Growth Program	3
+Corp	Shannon Claire	3
+Corp	Snare!	1
+Corp	Space Camp	3
+Corp	Spark Agency - Worldwide Reach	2
+Corp	Special Offer	3
+Corp	Spiderweb	3
+Corp	Sub Boost	3
+Corp	Surveillance Sweep	3
+Corp	TL_DR	3
+Corp	The All-Seeing I	3
+Corp	The Board	3
+Corp	The Twins	3
+Corp	Thomas Haas	2
+Corp	Titan Transnational - Investing In Your Future	1
+Corp	Tollbooth	4
+Corp	Traffic Accident	3
+Corp	Trick of Light	1
+Corp	Turing	3
+Corp	Turnpike	3
+Corp	Urban Renewal	3
+Corp	Vanilla	3
+Corp	Victoria Jenkins	3
+Corp	Wake Up Call	3
+Corp	Wall of Static	3
+Corp	Wall of Thorns	2
+Corp	Wormhole	3
+Runner	Adam - Compulsive Hacker	1
+Runner	Aesop_s Pawnshop	2
+Runner	Akamatsu Mem Chip	3
+Runner	Always Be Running	1
+Runner	Amped Up	3
+Runner	Apex - Invasive Predator	1
+Runner	Apocalypse	3
+Runner	Archives Interface	3
+Runner	Assimilator	3
+Runner	Aumakua	3
+Runner	Bank Job	1
+Runner	Beth Kilrain-Chang	3
+Runner	Bookmark	3
+Runner	Brain Chip	3
+Runner	Build Script	3
+Runner	By Any Means	3
+Runner	Career Fair	3
+Runner	Chop Bot 3000	3
+Runner	Corroder	3
+Runner	Crowdfunding	6
+Runner	Crypsis	1
+Runner	Cyberdelia	3
+Runner	Cyberfeeder	1
+Runner	Data Dealer	3
+Runner	Data Folding	3
+Runner	Datasucker	1
+Runner	Day Job	3
+Runner	Deus X	3
+Runner	Diesel	4
+Runner	Dinosaurus	1
+Runner	Dr. Lovegood	3
+Runner	Earthrise Hotel	3
+Runner	Eater	3
+Runner	Edward Kim - Humanity_s Hammer	1
+Runner	Emergency Shutdown	1
+Runner	Employee Strike	6
+Runner	Endless Hunger	3
+Runner	Femme Fatale	1
+Runner	Film Critic	6
+Runner	Forked	3
+Runner	GS Sherman M3	3
+Runner	GS Shrike M2	3
+Runner	GS Striker M1	3
+Runner	Gabriel Santiago	1
+Runner	Globalsec Security Clearance	3
+Runner	Gravedigger	3
+Runner	HQ Interface	2
+Runner	Harbinger	3
+Runner	Heartbeat	3
+Runner	Hivemind	3
+Runner	Human First	3
+Runner	Hunting Grounds	3
+Runner	I_ve Had Worse	3
+Runner	Ice Carver	2
+Runner	Imp	2
+Runner	Independent Thinking	3
+Runner	Inside Job	1
+Runner	Investigative Journalism	3
+Runner	Itinerant Protesters	3
+Runner	Jak Sinclair	3
+Runner	Kati Jones	3
+Runner	Knifed	3
+Runner	Labor Rights	3
+Runner	Legwork	6
+Runner	Lewi Guilherme	3
+Runner	MaxX - Maximum Punk Rock	1
+Runner	MemStrips	3
+Runner	Multithreader	3
+Runner	Networking	3
+Runner	Neutralize All Threats	1
+Runner	Notoriety	2
+Runner	Prey	3
+Runner	Progenitor	3
+Runner	Puffer	3
+Runner	Qianju PT	3
+Runner	RNG Key	2
+Runner	R_D Interface	3
+Runner	Reina Roja	1
+Runner	Retrieval Run	1
+Runner	Runner Card Back	0
+Runner	Sacrificial Clone	3
+Runner	Safety First	1
+Runner	Same Old Thing	3
+Runner	Scrubber	1
+Runner	Security Chip	3
+Runner	Security Nexus	3
+Runner	Showing Off	3
+Runner	Sneakdoor Beta	2
+Runner	Special Order	2
+Runner	Spooned	3
+Runner	Stim Dealer	3
+Runner	Stimhack	2
+Runner	Sunny Lebeau - Security Specialist	1
+Runner	Technical Writer	3
+Runner	Test Run	1
+Runner	The Maker_s Eye	5
+Runner	The Turning Wheel	3
+Runner	Tinkering	1
+Runner	Uninstall	3
+Runner	Upya	3
+Runner	Valencia Estevez - The Angel of Cayambe	1
+Runner	Vigil	3
+Runner	Virus Breeding Ground	3
+Runner	Wanton Destruction	3
+Runner	Wasteland	3
+Runner	Windfall	3
+Runner	Xanadu	2
+Runner	Yusuf	3
+Runner	Zamba	3

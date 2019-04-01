@@ -1,0 +1,20 @@
+Runner	Faust	3
+Runner	Street Peddler	3
+Corp	Underway Grid	3
+Runner	Armand "Geist" Walker - Tech Lord	3
+Runner	Drive By	3
+Runner	Forger	3
+Runner	Shiv	3
+Runner	Gang Sign	3
+Runner	Muertos Gang Member	3
+Corp	Test Ground	3
+Corp	Defective Brainchips	3
+Corp	Allele Repression	3
+Corp	Marcus Batty	3
+Corp	Exposé	3
+Corp	Pachinko	3
+Runner	Chameleon	3
+Runner	Hyperdriver	3
+Corp	Underway Renovation	3
+Corp	Contract Killer	3
+Corp	Spiderweb	3

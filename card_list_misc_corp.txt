@@ -1,0 +1,17 @@
+Corp	Corp Card Back	0
+Runner	Runner Card Back	0
+Corp	Adonis Campaign	3
+Corp	Arella Salvatore	3
+Corp	Ash 2X3ZB9CY	3
+Corp	Border Control	6
+Corp	Director Haas	2
+Corp	Eli 1.0	3
+Corp	Enigma	3
+Corp	Global Food Initiative	6
+Corp	Levy University	1
+Corp	Pop-Up Window	3
+Corp	Rashida Jaheem	3
+Corp	Scarcity of Resources	3
+Corp	Tollbooth	3
+Corp	Thomas Haas	2
+Corp	Vanilla	3

@@ -1,6 +1,6 @@
-Runner	Edward Kim - Humanity_s Hammer	3
-Runner	MaxX - Maximum Punk Rock	3
-Runner	Valencia Estevez - The Angel of Cayambe	3
+Runner	Edward Kim - Humanity_s Hammer	1
+Runner	MaxX - Maximum Punk Rock	1
+Runner	Valencia Estevez - The Angel of Cayambe	1
 Runner	Amped Up	3
 Runner	I_ve Had Worse	3
 Runner	Itinerant Protesters	3
@@ -29,9 +29,9 @@ Corp	Cyberdex Virus Suite	3
 Runner	Uninstall	3
 Runner	Qianju PT	3
 Runner	Data Folding	3
-Corp	Argus Security - Protection Guaranteed	3
-Corp	Gagarin Deep Space - Expanding The Horizon	3
-Corp	Titan Transnational - Investing In Your Future	3
+Corp	Argus Security - Protection Guaranteed	1
+Corp	Gagarin Deep Space - Expanding The Horizon	1
+Corp	Titan Transnational - Investing In Your Future	1
 Corp	Firmware Updates	3
 Corp	Glenn Station	3
 Corp	Government Takeover	3
